@@ -8,8 +8,9 @@ import (
 func main() {
 	// Crear un mapa para almacenar los apellidos de los jugadores y la descripcion.
 	diccionario := map[string]string{
-		"Martínez": "Edad: \nNombre completo: \nApodo: \nFecha de nacimiento: \nEstatura: \nPeso: ",
+		"Martínez": "Edad: 26 \nNombre completo: Lautaro Martinez \nApodo: El Toro \nFecha de nacimiento: 22 de agosto de 1997 \nEstatura: 1.74 \nPeso: 72 ",
 		//TODO agregar un jugador de la seleccion
+		"Fernandes": "Edad: 29 \nNombre completo: Bruno Fernandes \nApodo: Bruno \nFecha de nacimiento: 8 de septiembre de 1994 \nEstatura: 1.79 \nPeso: 69 ",
 	}
 
 	// Verificar si se proporciona un argumento (la palabra a buscar).
